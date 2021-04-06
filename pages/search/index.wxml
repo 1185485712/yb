@@ -1,0 +1,27 @@
+<view class="search_warp">
+    <van-search value="{{ value }}" placeholder="搜索关键字" use-action-slot bind:change="onChange" bind:search="onSearch" background="#fff" shape="round">
+        <view slot="action" bind:tap="onClick">搜索</view>
+    </van-search>
+</view>
+<view class="hot_search_warp">
+    <view class="hot_search_name">热门搜索</view>
+    <view class="hot_item_warp">
+        <view class="hot_item">2栋</view>
+        <view class="hot_item">快递</view>
+        <view class="hot_item">3栋</view>
+    </view>
+</view>
+<view class="his_search_warp">
+    <view class="his_search_name">
+        <text class="his_name" >历史搜索</text>
+        <text class="his_clear icon-laji" bind:tap="handleClearHistory"></text>
+
+    </view>
+    <view class="his_item_warp">
+        <view class="his_item">3栋</view>
+        <view class="his_item">修电脑</view>
+        <view class="his_item">3栋外卖</view>
+        <view class="his_item">4栋快递</view>
+        <view class="his_item">学英语</view>
+    </view>
+</view>

@@ -1,0 +1,68 @@
+.content_warp {
+  display: flex;
+  height: 150rpx;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx 10rpx;
+}
+.content_warp .pic_content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.content_warp .pic_content .image image {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+.content_warp .pic_content .image_name {
+  color: #b3b1b4;
+}
+.content_warp .main_content {
+  flex: 5;
+  height: 100%;
+  position: relative;
+}
+.content_warp .main_content .main_con_warp {
+  padding: 30rpx 0;
+  height: 100%;
+}
+.content_warp .main_content .main_con_warp .help_content label {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #353535;
+}
+.content_warp .main_content .main_con_warp .help_content text {
+  color: #b3b1b4;
+  font-size: 26rpx;
+  padding-left: 20rpx;
+}
+.content_warp .main_content .main_con_warp .help_address {
+  padding-top: 10rpx;
+}
+.content_warp .main_content .main_con_warp .help_address label {
+  color: #b3b1b4;
+  font-size: 26rpx;
+}
+.content_warp .main_content .main_con_warp .help_address text {
+  color: #b3b1b4;
+  font-size: 26rpx;
+  padding-left: 20rpx;
+}
+.content_warp .main_content .main_con_warp .help_time {
+  position: absolute;
+  right: 10rpx;
+  bottom: 10rpx;
+}
+.content_warp .main_content .main_con_warp .help_time .help_time_warp {
+  font-size: 18rpx;
+}
+.content_warp .button {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

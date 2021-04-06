@@ -1,0 +1,5 @@
+<view class="search_warp">
+    <navigator url="/pages/search/index">
+        <van-search placeholder="更多帮助" shape="round"  value="" class="aba"/>
+    </navigator>
+</view>

@@ -1,0 +1,66 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/requirement/index",
+    "pages/comehelp/index",
+    "pages/skillexchange/index",
+    "pages/myself/index",
+    "pages/search/index",
+    "pages/perfectInfo/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/index.png",
+        "selectedIconPath": "icons/index_active.png"
+      },
+      {
+        "pagePath": "pages/requirement/index",
+        "text": "发布需求",
+        "iconPath": "icons/demand.png",
+        "selectedIconPath": "icons/demand_active.png"
+      },
+      {
+        "pagePath": "pages/comehelp/index",
+        "text": "我来帮忙",
+        "iconPath": "icons/comehelp.png",
+        "selectedIconPath": "icons/comehelp_active.png"
+      },
+      {
+        "pagePath": "pages/skillexchange/index",
+        "text": "技能交换",
+        "iconPath": "icons/skillexchange.png",
+        "selectedIconPath": "icons/skillexchange_active.png"
+      },
+      {
+        "pagePath": "pages/myself/index",
+        "text": "我的",
+        "iconPath": "icons/myself.png",
+        "selectedIconPath": "icons/myself_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-field": "@vant/weapp/field/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-search": "@vant/weapp/search/index",
+    "search-help":"/components/search/search",
+    "van-count-down": "@vant/weapp/count-down/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index"
+  }
+}

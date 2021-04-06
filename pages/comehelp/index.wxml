@@ -1,0 +1,20 @@
+<view class="requirement_warp">
+    <form action="">
+        <view class="req_cont_warp">
+            <view class="req_img">
+                <image class="" src="https://img2.woyaogexing.com/2021/02/20/a4066c038c124d85ba0c90265f130ec1!400x400.jpeg" mode="widthFix" lazy-load="false" binderror="" bindload=""></image>
+                <view class="req_img_name">小帮，您好</view>
+            </view>
+
+            <view class="req_info_warp">
+                <label for="">帮忙</label>
+                <!-- <input class="" value="" type="text" placeholder="我现在要去快递之家拿快递，3栋有需要帮忙的同学我可以帮忙代拿"></input> -->
+                <textarea name="" id="" cols="40" rows="3" placeholder="我现在要去快递之家拿快递，3栋有需要帮忙的同学我可以帮忙代拿"></textarea>
+            </view>
+
+        </view>
+        <view class="submit_btn">
+            <button form-type="submit">点击发布</button>
+        </view>
+    </form>
+</view>

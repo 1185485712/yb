@@ -1,0 +1,73 @@
+.myself_warp {
+    .user_warp {
+          position: relative;
+          display: flex;
+          margin-top: 5vh;
+            .img_warp {
+                flex: 2;
+                display: flex;
+                padding-left: 2vw;
+                align-items: center;
+                image {
+                    width: 90rpx;
+                    height: 90rpx;
+                }
+            }
+    
+            .user_info_warp {
+                flex: 8;
+                .user_name {
+                    font-size: 36rpx;
+
+                }
+        
+                .user_desc {
+                    font-size: 30rpx;
+                    color: #b3b1b4;
+                }
+            }
+            .user_info_more{
+                font-family: iconfont;
+                font-size: 36rpx;
+                color: #ccc;
+                display: flex;
+                align-items: center;
+            }
+    }
+    .user_task{
+        display: flex;
+        navigator{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 30rpx 0;
+            margin: 50rpx 0;
+            .task_num{
+                font-weight: 900;
+                font-size: 60rpx;
+            }
+            .task_name{
+                color: #b3b1b4;
+            }
+        }
+    }
+    .user_more_fun{
+        navigator{
+            display: flex;
+            padding: 15rpx 0;
+            font-size: 40rpx;
+            .icon{
+                font-family: iconfont;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 10rpx;
+            }
+            .fun_name{
+                color: #666666;
+            }
+        }
+    }
+}

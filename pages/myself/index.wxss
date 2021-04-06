@@ -1,0 +1,66 @@
+.myself_warp .user_warp {
+  position: relative;
+  display: flex;
+  margin-top: 5vh;
+}
+.myself_warp .user_warp .img_warp {
+  flex: 2;
+  display: flex;
+  padding-left: 2vw;
+  align-items: center;
+}
+.myself_warp .user_warp .img_warp image {
+  width: 90rpx;
+  height: 90rpx;
+}
+.myself_warp .user_warp .user_info_warp {
+  flex: 8;
+}
+.myself_warp .user_warp .user_info_warp .user_name {
+  font-size: 36rpx;
+}
+.myself_warp .user_warp .user_info_warp .user_desc {
+  font-size: 30rpx;
+  color: #b3b1b4;
+}
+.myself_warp .user_warp .user_info_more {
+  font-family: iconfont;
+  font-size: 36rpx;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+}
+.myself_warp .user_task {
+  display: flex;
+}
+.myself_warp .user_task navigator {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30rpx 0;
+  margin: 50rpx 0;
+}
+.myself_warp .user_task navigator .task_num {
+  font-weight: 900;
+  font-size: 60rpx;
+}
+.myself_warp .user_task navigator .task_name {
+  color: #b3b1b4;
+}
+.myself_warp .user_more_fun navigator {
+  display: flex;
+  padding: 15rpx 0;
+  font-size: 40rpx;
+}
+.myself_warp .user_more_fun navigator .icon {
+  font-family: iconfont;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rpx;
+}
+.myself_warp .user_more_fun navigator .fun_name {
+  color: #666666;
+}

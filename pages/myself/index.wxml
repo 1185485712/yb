@@ -1,0 +1,59 @@
+<view class="myself_warp">
+    <navigator class="user_warp" target="" url="" hover-class="navigator-hover" open-type="navigate" wx:if="{{imgPic}}">
+
+            <view class="img_warp">
+                <image class="" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fblog%2F202008%2F26%2F20200826113745_UcxQK.thumb.400_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1616563182&t=3e321a8b2586222de048382a1033baf0" mode="widthFix"></image>
+            </view>
+            <view class="user_info_warp">
+                <view class="user_name">用户名称</view>
+                <view class="user_desc">用户描述</view>
+            </view>
+            <view class="user_info_more">
+                <view class="icon-left-arrow"></view>
+            </view>
+
+    </navigator>
+
+    <view class="user_task">
+        <navigator url="">
+            <view class="task_num">12</view>
+            <view class="task_name">我的需求</view>
+        </navigator>
+        <navigator url="">
+            <view class="task_num">3</view>
+            <view class="task_name">我帮助的</view>
+        </navigator>
+                <navigator url="">
+            <view class="task_num">3</view>
+            <view class="task_name">技能交换</view>
+        </navigator>
+                <navigator url="">
+            <view class="task_num">2</view>
+            <view class="task_name">易帮卷</view>
+        </navigator>        
+    </view>
+
+    <view class="user_more_fun">
+        <navigator url="">
+            <view class="icon icon-shengyinlingsheng-"></view>
+            <view class="fun_name">即时提醒</view>
+        </navigator>
+                <navigator url="">
+            <view class="icon icon-shouji"></view>
+            <view class="fun_name">修改手机号</view>
+        </navigator>
+                <navigator url="">
+            <view class="icon icon-apptubiao-"></view>
+            <view class="fun_name">微信客服</view>
+        </navigator>
+                <navigator url="">
+            <view class="icon icon-dianhuakefu"></view>
+            <view class="fun_name">电脑客服</view>
+        </navigator>
+                <navigator url="">
+            <view class="icon icon-guanyu"></view>
+            <view class="fun_name">关于我们</view>
+        </navigator>
+    </view>
+
+</view>

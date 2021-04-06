@@ -1,0 +1,25 @@
+<view class="requirement_warp">
+    <form action="">
+        <view class="req_cont_warp">
+            <view class="req_img">
+                <image class="" src="https://img2.woyaogexing.com/2021/02/20/a4066c038c124d85ba0c90265f130ec1!400x400.jpeg" mode="widthFix" lazy-load="false" binderror="" bindload=""></image>
+                <view class="req_img_name">小帮，您好</view>
+            </view>
+            <view class="req_address_warp">
+                <label for="">地址</label>
+                <input class="" value="" type="text" placeholder="默认:3501 点击可修改"></input>
+            </view>
+            <view class="req_info_warp">
+                <label for="">需求</label>
+                <input class="" value="" type="text" placeholder="最多十五个字 请尽量写关键字"></input>
+            </view>
+            <view class="req_mdinfo_warp">
+                <label for="">加密信息</label>
+                <input class="" value="" type="text" placeholder="仅接单人可见"></input>
+            </view>
+        </view>
+        <view class="submit_btn">
+            <button form-type="submit">点击确认</button>
+        </view>
+    </form>
+</view>

@@ -1,0 +1,63 @@
+<search-help></search-help>
+<view class="content_warp">
+    <viwe class="pic_content">
+        <view class="image">
+            <image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201412%2F23%2F20141223071138_j4NMw.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1616416510&t=bdd3a4799896fb46621e1778c929a647" />
+        </view>
+        <view class="image_name">小明</view>
+    </viwe>
+    <view class="main_content">
+        <view class="main_con_warp">
+            <view class="help_content">
+                <label for="">需求:</label>
+                <text>快递之家帮拿快递</text>
+            </view>
+            <view class="help_address">
+                <label for="">地址:</label>
+                <text>3栋502</text>
+            </view>
+            <text class="help_time">
+                <text class="help_time_warp">
+                    <text >剩余：</text>
+                    <text>3:30:20</text>
+                </text>
+            </text>
+        </view>
+    </view>
+    <view class="button">
+        <navigator>
+            <van-button type="info" round>我帮你</van-button>
+        </navigator>
+    </view>
+</view>
+<view class="content_warp">
+    <viwe class="pic_content">
+        <view class="image">
+            <image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201412%2F23%2F20141223071138_j4NMw.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1616416510&t=bdd3a4799896fb46621e1778c929a647" />
+        </view>
+        <view class="image_name">小明</view>
+    </viwe>
+    <view class="main_content">
+        <view class="main_con_warp">
+            <view class="help_content">
+                <label for="">需求:</label>
+                <text>快递之家帮拿快递</text>
+            </view>
+            <view class="help_address">
+                <label for="">地址:</label>
+                <text>3栋502</text>
+            </view>
+            <text class="help_time">
+                <text class="help_time_warp">
+                    <text >剩余：</text>
+                    <text>3:30:20</text>
+                </text>
+            </text>
+        </view>
+    </view>
+    <view class="button">
+        <navigator>
+            <van-button type="danger" round>你帮我</van-button>
+        </navigator>
+    </view>
+</view>

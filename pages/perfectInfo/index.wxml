@@ -1,0 +1,24 @@
+<form >
+    <van-cell-group>
+        <van-field bind:change="onChange" data-prop="username" value="{{ username }}" required clearable label="姓名" placeholder="请输入姓名"   />
+        <van-field bind:change="onChange" data-prop="grade" value="{{ grade }}" required clearable label="专业班级" placeholder="例如：物流191"   />
+        <van-field bind:change="onChange" data-prop="studentId" value="{{ studentId }}" required clearable label="学号" placeholder="请输入学号13位"  />
+        <van-field bind:change="onChange" data-prop="dormitory" value="{{ dormitory }}" required clearable label="详细地址" placeholder="例如：3栋502"  />
+    </van-cell-group>
+    <view class="student_card">
+        <view class="student_label">
+            学生证/一卡通正面:
+        </view>
+        <view class="uploadImage">
+            <button bindtap="handleChooseImg" hidden="{{chooseImgs[0]}}">+</button>
+            <view class="up_image_wrap"  wx:if="{{chooseImgs[0]}}">
+                <image class="show_image" src="{{chooseImgs[0]}}"></image>
+                <icon class="" type="clear"  size="23"  color="red" bindtap="handleRemoveImg"></icon>
+            </view>
+        </view>
+    </view>
+
+    <view class="submit_from">
+        <button form-type="submit" bindtap="handleFormSubmit">确认并提交</button>
+    </view>
+</form>
